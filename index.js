@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded",function(){let e=null,n="breakPoint
                         <span class="hidden sm:inline-block md:hidden">SM</span>
                         <span class="hidden md:inline-block lg:hidden">MD</span>
                         <span class="hidden lg:inline-block xl:hidden">LG</span>
-                        <span class="hidden xl:inline-block">XL</span>
+                        <span class="hidden xl:inline-block 2xl:hidden">XL</span>
+                        <span class="hidden 2xl:inline-block">2XL</span>
                     </div>
                     <span class="px-2 py-1 text-black dark:text-white"><span id="currentWidth">${s}</span>px</span>
                     <span id="resizerElementCloseButton" class="flex items-center justify-center w-5 h-5 text-gray-500 rounded-full cursor-pointer dark:text-neutral-300 bg-neutral-200/60 dark:bg-neutral-700/80 dark:hover:bg-neutral-700 hover:bg-neutral-200">
